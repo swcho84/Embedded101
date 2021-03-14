@@ -20,3 +20,11 @@
 - 2번 라인: Arduino Due에 스위치 연결한 다음, 스위치가 on상태이면 'y'문자를 생성하고 이를 Arduino Leonardo로 전송함, 이때, Arduino Leonardo는 전송받은 'y'문자를 활용하여 RGB LED를 녹색으로 셋팅함, 그 외의 경우에는 적색으로 셋팅함
 - 줌 동영상으로 핀 배열 알아보기 힘든 경우에는 사진을 통해 LED 핀배열 확인 후 적용
 - 그 외의 문의는 swcho84@gmail.com 또는 github에 issue 기능으로 문의
+------
+------
+## 3. I2C 실습
+- Arduino Due와 Leonardo를 각각 I2C 통신 실습
+- basic: Arduino Due(Master)에서 Arduino Leonardo(Slave)에게 byte data를 요청하고 그 결과를 출력 
+- advanced: Arduino Due(Master에서 analog joystic 정보를 입력받아 Arduino Leonardo(Slave)에게 해당 정보를 전달하고 slave에서 그 결과를 출력
+- 줌 동영상과 근접 동영상으로 핀 배열 알아보기 힘든 경우에는 사진을 통해 LED 핀배열 확인 후 적용
+- 그 외의 문의는 swcho84@gmail.com 또는 github에 issue 기능으로 문의
