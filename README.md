@@ -25,6 +25,22 @@
 ## 3. I2C 실습
 - Arduino Due와 Leonardo를 각각 I2C 통신 실습
 - basic: Arduino Due(Master)에서 Arduino Leonardo(Slave)에게 byte data를 요청하고 그 결과를 출력 
-- advanced: Arduino Due(Master에서 analog joystic 정보를 입력받아 Arduino Leonardo(Slave)에게 해당 정보를 전달하고 slave에서 그 결과를 출력
+- advanced: Arduino Due(Master)에서 analog joystick 정보를 입력받아 Arduino Leonardo(Slave)에게 해당 정보를 전달하고 slave에서 그 결과를 출력
+- 줌 동영상과 근접 동영상으로 핀 배열 알아보기 힘든 경우에는 사진을 통해 LED 핀배열 확인 후 적용
+- 그 외의 문의는 swcho84@gmail.com 또는 github에 issue 기능으로 문의
+------
+------
+## 4. SPI 실습
+- Arduino Mega2560와 Uno를 각각 SPI 통신 실습
+- basic: Arduino Mega2560(Master)에서 Arduino Uno(Slave)에게 string data를 보내고 그 결과를 slave에서 출력 
+- advanced: Arduino Mega2560(Master)에서 analog joystick 정보를 입력받아 Arduino Uno(Slave)에게 해당 정보를 전달하고 slave에서 그 결과를 servo로 출력
+- 줌 동영상과 근접 동영상으로 핀 배열 알아보기 힘든 경우에는 사진을 통해 LED 핀배열 확인 후 적용
+- 그 외의 문의는 swcho84@gmail.com 또는 github에 issue 기능으로 문의
+------
+------
+## 5. PWM 실습
+- Arduino Leonardo를 각각 PWM 통신 실습
+- basic: Arduino Leonardo에서 servo를 연결하고 이것의 min-max값을 찾아서 셋팅함 
+- advanced: Arduino Leonardo에서 servo와 joystick을 연결하고 analog joystick 정보를 입력받아 angle로 mapping하여 그 결과를 servo로 출력
 - 줌 동영상과 근접 동영상으로 핀 배열 알아보기 힘든 경우에는 사진을 통해 LED 핀배열 확인 후 적용
 - 그 외의 문의는 swcho84@gmail.com 또는 github에 issue 기능으로 문의
